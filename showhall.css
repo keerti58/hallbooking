@@ -1,0 +1,36 @@
+.show-hall .card {
+    transition: transform 0.2s;
+}
+
+.show-hall .card:hover {
+    transform: scale(1.05);
+}
+
+.show-hall .border-danger {
+    border: 2px solid red !important;
+}
+
+.show-hall .border-success {
+    border: 2px solid green !important;
+}
+/* Styles for the hall cards */
+.card {
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+/* Styles for the modal */
+.modal.show {
+    display: block;
+}
+
+.border-success {
+    border: 2px solid green;
+}
+
+.border-danger {
+    border: 2px solid red;
+}

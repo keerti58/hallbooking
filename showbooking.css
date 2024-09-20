@@ -1,0 +1,22 @@
+.show-booking .card {
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.show-booking .card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.show-booking .card-title {
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.show-booking .card-text {
+    font-size: 1rem;
+    color: #333;
+}
+
+.show-booking .text-success {
+    color: #28a745 !important;
+}

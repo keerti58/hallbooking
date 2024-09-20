@@ -1,0 +1,19 @@
+ .user-register-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+  }
+  
+  h2 {
+    margin-bottom: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .user-login-container, .user-register-container {
+      padding: 15px;
+    }
+  }

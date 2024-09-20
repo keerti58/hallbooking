@@ -1,0 +1,121 @@
+/* Header */
+.header {
+  background: linear-gradient(90deg, #ffeb3b 0%, #ffc107 50%, #ffeb3b 100%);
+  padding: 20px 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow for more depth */
+  position: relative;
+  z-index: 1;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  margin-right: 15px;
+}
+
+.website-name {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #000000; /* Ensure text is visible on the gradient background */
+}
+
+.highlight {
+  color: #ff5722;
+}
+
+/* Hero Section */
+.hero {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.hero-image {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.hero-text h2 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.hero-text p {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+.btn-primary {
+  background-color: #ff5722;
+  border-color: #ff5722;
+}
+
+.btn-secondary {
+  background-color: #4e7b92;
+  border-color: #607d8b;
+}
+
+/* Login and Admin Cards */
+.login-cards {
+  padding: 40px 0;
+}
+
+.transparent-card {
+  background: rgba(255, 255, 255, 0.8); /* Slightly transparent background */
+  border: none;
+  border-radius: 10px;
+}
+
+.transparent-card .card-body {
+  padding: 20px;
+}
+
+/* Features Section */
+.features {
+  background-color: #f9f9f9;
+  padding: 40px 0;
+}
+
+.section-title {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  text-align: center;
+  color: #333;
+}
+
+.feature {
+  text-align: center;
+  padding: 20px;
+}
+
+.feature-icon {
+  color: #ff5722;
+}
+
+.feature h4 {
+  margin-top: 10px;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.feature p {
+  margin-top: 10px;
+  color: #666;
+}
+
+
+
+
+
